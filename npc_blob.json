@@ -1,0 +1,19 @@
+{
+	"name":		,
+	"age":		,
+	"sex":		,
+	"role":	[
+		"rolename":				,
+		"PartOfStructure":		,
+	]
+	"traits": [
+		"Placeholder_Trait",
+	]
+	"relationships": [
+		{
+		"Type":			,
+		"Direction":	,
+		"Target":		,
+		}
+	]
+}

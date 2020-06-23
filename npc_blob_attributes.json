@@ -1,0 +1,31 @@
+{
+	"name":		,
+	"age":		,
+	"sex":		,
+	"attributes": [
+		"Faith": 			,
+		"Independence":		,
+		"Criminality":		,
+		"Altruism":			,
+		"Education":		,
+		"Wealth":			,
+		"Attractiveness":	,
+		"Status":			,
+		"Intelligence":		,
+		"Fitness":			,
+		]
+	"role":	[
+		"rolename":				,
+		"PartOfStructure":		,
+	]
+	"traits": [
+		"Placeholder_Trait",
+	]
+	"relationships": [
+		{
+		"Type":			,
+		"Direction":	,
+		"Target":		,
+		}
+	]
+}
