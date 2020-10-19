@@ -1,0 +1,24 @@
+"struct-ex1": {
+	"name":"Family",
+	"allow-subs":false,
+	"min-members":2,
+	"max-members":12,
+	"roles": [
+		{"name":"Father", "max":1, "min":1}
+		{"name":"Mother", "max":1, "min":1}
+		{"name":"Child", "max":10, "min":0}
+			],
+}
+
+"struct-ex2": {
+	"name":"Village",
+	"allow-subs":true,
+	"min-members":10,
+	"max-members":50,
+	"roles": [
+		{"name":"Mayor", "max":1, "min":0}
+		{"name":"Elder", "max":4, "min":0}
+		{"name":"Villager", "max":50, "min":25}
+			]
+	}
+

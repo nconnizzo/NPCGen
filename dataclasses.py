@@ -30,12 +30,33 @@ class attribs
 #tr-statmin and tr-statmax set the upper and lower bound of how to create the list of available traits. (however that will be done)
 #tr-name is lastly the name of the trait which is what will be appended to the subclass of the NPC
 
-
 class trait
     tr-name: str
     tr-keystat: str
     tr-statmin: int
     tr-statmax: int
 
+#defining the relationship class
+#relationships are objects that connect two NPCs and describe the nature of their relationship
+#rel-ID is the unique ID for the relationship
+#rel-cat is the "category" of relationship it is
+#members should be a (python) array that can have people appended to it. since we are using an array, we can use ordination (e.g. 0 for first member, 1 for 2nd member, etc.) to show hierarchy
+
+class relationship
+    rel-ID: int
+    rel-cat: str
+    members
+    
+#defining the structure class
+#structures consist of basic information about the structure itself and links to all the roles contained within.
 
 
+
+
+#defining the role class
+#roles are separate from structures but are linked within (should we go this way). this allows NPCgen to be able to reuse roles across multiple structures
+#roles have a name and potentially any number of tags (a simple list since order is not important)
+
+class role
+    rolename: str
+    tags
